@@ -22,8 +22,8 @@ header p {
 .movie-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 10rem;
+    justify-content: space-around;
+    padding: 2rem 7rem;
 }
 
 .movie-container .movie-content{
@@ -36,7 +36,8 @@ header p {
 
 .movie-container .movie-content img {
     width: 400px;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-right: 2rem;
 }
 
 .movie-container .movie-content .movie-btn{
@@ -63,4 +64,12 @@ header p {
 
 .movie-container .movie-text{
     text-align: justify;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid rgb(212, 30, 203);;
 }
