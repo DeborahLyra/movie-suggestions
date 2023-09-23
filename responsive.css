@@ -1,0 +1,13 @@
+@media (max-width: 900px){
+    body{
+        height: auto;
+        background-size: 8em;
+    }
+    .movie-container {
+        flex-direction: column;
+    }
+
+    .movie-container .movie-text{
+        margin-top: 2rem;
+    }
+}

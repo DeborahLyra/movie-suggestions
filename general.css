@@ -11,6 +11,7 @@
 
 body {
     background-image: url(./img/bg-repeat.jpg);
+   background-size: cover;
     background-position: center;
    background-repeat: repeat-x;
    background-size: 5em;
