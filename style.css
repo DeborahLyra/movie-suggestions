@@ -4,7 +4,7 @@
 /* HEADER */
 header {
     text-align: center;
-    padding: 5rem 2.5rem;
+    padding: 2rem 2.5rem;
 }
 
 header h1{
@@ -24,6 +24,7 @@ header p {
     align-items: center;
     justify-content: space-around;
     padding: 2rem 7rem;
+    height: 100%;
 }
 
 .movie-container .movie-content{
@@ -35,16 +36,32 @@ header p {
 }
 
 .movie-container .movie-content img {
-    width: 400px;
+    width: 450px;
+    min-height: 675px;
     border-radius: 10px;
     margin-right: 2rem;
 }
 
-.movie-container .movie-content .movie-btn{
+
+.movie-container .movie-text{
+    text-align: justify;
+    line-height: 2rem;
+    margin-left: 2rem;
+    max-width: 600px;
+    font-size: 1.5rem;
+}
+
+.movie-container .movie-text h2{
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.movie-container .movie-text .movie-btn{
     margin-top: 2rem;
     padding: 20px 40px;
     border-radius: 10px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     background-color: transparent;
     border: 3px solid rgb(212, 30, 203);
@@ -53,23 +70,19 @@ header p {
     letter-spacing: 2px;
 }
 
-.movie-container .movie-content .movie-btn:hover{
+.movie-container .movie-text .movie-btn:hover{
     background-color: rgb(212, 30, 203);
     border-color: rgb(64, 64, 225);
 }
 
-.movie-container .movie-content .movie-btn:focus{
+.movie-container .movie-text .movie-btn:focus{
     outline: none;
 }
-
-.movie-container .movie-text{
-    text-align: justify;
-}
-
 /* FOOTER */
 
 footer{
     text-align: center;
-    padding: 2rem;
-    border-top: 1px solid rgb(212, 30, 203);;
+    padding: 1rem;
+    border-top: 1px solid rgb(212, 30, 203);
+   
 }
