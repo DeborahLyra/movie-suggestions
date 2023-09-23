@@ -1,1 +1,66 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 5rem 2.5rem;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+}
+
+/* MAIN */
+
+.movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.movie-container .movie-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.movie-container .movie-content img {
+    width: 400px;
+    border-radius: 10px
+}
+
+.movie-container .movie-content .movie-btn{
+    margin-top: 2rem;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 3px solid rgb(212, 30, 203);
+    color: #ffff;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.movie-container .movie-content .movie-btn:hover{
+    background-color: rgb(212, 30, 203);
+    border-color: rgb(64, 64, 225);
+}
+
+.movie-container .movie-content .movie-btn:focus{
+    outline: none;
+}
+
+.movie-container .movie-text{
+    text-align: justify;
+}
